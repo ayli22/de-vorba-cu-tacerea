@@ -18,7 +18,7 @@ Proiect HTML, CSS și JavaScript, pregătit pentru deschidere și editare în Vi
 ## Personalizări înainte de publicare
 - În `index.html`, caută `adresa-ta@email.com` și înlocuiește cu adresa ta reală pentru comenzile prin e-mail.
 - În secțiunea „Despre autoare”, înlocuiește blocul cu inițialele `AC` cu o fotografie portret.
-- Dacă vrei comenzi prin Instagram, WhatsApp sau un formular real, adaugă datele de contact și putem conecta butonul.
+- Dacă vrei comanzi prin Instagram, WhatsApp sau un formular real, adaugă datele de contact și putem conecta butonul.
 - Prețul și modalitatea de livrare nu au fost completate, deoarece nu apar în informațiile furnizate pentru această versiune.
 
 ## Observație
