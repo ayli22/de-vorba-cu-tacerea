@@ -1,5 +1,16 @@
 const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.navigation');
+const currentUrl = new URL(window.location.href);
+
+if (currentUrl.searchParams.get('utm_source') === 'chatgpt.com') {
+    currentUrl.searchParams.delete('utm_source');
+
+    window.history.replaceState(
+        {},
+        document.title,
+        currentUrl.pathname + currentUrl.search + currentUrl.hash
+    );
+}
 
 menuToggle.addEventListener('click', () => {
   const isOpen = navigation.classList.toggle('open');
