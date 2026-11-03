@@ -51,7 +51,6 @@ document.querySelectorAll('.fragment-card img').forEach(image => {
     });
 });
 
-// INCHIDEREA FERESTREI
 
 lightboxClose.addEventListener('click', () => {
     lightbox.classList.remove('active');
@@ -65,7 +64,6 @@ lightbox.addEventListener('click', event => {
     }
 });
 
-// INCHIDERE CU TASTA ESCAPE
 
 document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
