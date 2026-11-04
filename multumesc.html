@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Un gând a ajuns la mine. Îți mulțumesc că ai împărtășit impresia ta despre De vorbă cu tăcerea.">
+
+    <meta name="theme-color" content="#f8f6f1">
+
+    <title>Mulțumesc pentru gândul tău — Alina Coltuclu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .thank-you-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+            background: #f8f6f1;
+            text-align: center;
+        }
+
+        .thank-you-content {
+            max-width: 680px;
+            animation: thankYouAppear 1.2s ease both;
+        }
+
+        .thank-you-line {
+            width: 55px;
+            height: 1px;
+            background: #b99b68;
+            margin: 30px auto;
+        }
+
+        .thank-you-content h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(42px, 7vw, 68px);
+            font-weight: 500;
+            line-height: 1.1;
+            color: #172d3b;
+            margin: 20px 0;
+        }
+
+        .thank-you-content h1 em {
+            font-weight: 400;
+        }
+
+        .thank-you-content .eyebrow {
+            font-size: 11px;
+            letter-spacing: 3px;
+            color: #a58a60;
+        }
+
+        .thank-you-message {
+            max-width: 530px;
+            margin: 0 auto;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 15px;
+            line-height: 2;
+            color: #62676a;
+            font-weight: 300;
+        }
+
+        .thank-you-signature {
+            margin-top: 35px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 25px;
+            font-style: italic;
+            color: #172d3b;
+        }
+
+        .thank-you-book {
+            margin-top: 12px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 21px;
+            color: #a58a60;
+            letter-spacing: 1px;
+        }
+
+        .thank-you-button {
+            display: inline-block;
+            margin-top: 38px;
+            padding: 15px 30px;
+            border: 1px solid #172d3b;
+            color: #172d3b;
+            text-decoration: none;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 11px;
+            letter-spacing: 1.5px;
+            transition: all 0.3s ease;
+        }
+
+        .thank-you-button:hover {
+            background: #172d3b;
+            color: #fff;
+        }
+
+        @keyframes thankYouAppear {
+            from {
+                opacity: 0;
+                transform: translateY(18px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .thank-you-page {
+                padding: 35px 25px;
+            }
+
+            .thank-you-message {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="thank-you-page">
+
+        <div class="thank-you-content">
+
+            <p class="eyebrow">UN GÂND A AJUNS LA MINE</p>
+
+            <div class="thank-you-line"></div>
+
+            <h1>
+                Îți mulțumesc<br>
+                <em>pentru gândul tău.</em>
+            </h1>
+
+            <div class="thank-you-line"></div>
+
+            <p class="thank-you-message">
+                Îți mulțumesc că ai lăsat câteva dintre gândurile tale aici.
+                <br><br>
+                Fiecare impresie adaugă o nouă pagină poveștii acestei cărți.
+                Iar faptul că ai ales să împărtășești o parte din ceea ce ai
+                simțit înseamnă mai mult decât crezi.
+            </p>
+
+            <p class="thank-you-signature">
+                Cu drag,<br>
+                Alina
+            </p>
+
+            <p class="thank-you-book">
+                De vorbă cu tăcerea
+            </p>
+
+            <a href="index.html" class="thank-you-button">
+                ÎNAPOI LA POVESTE
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
+```
