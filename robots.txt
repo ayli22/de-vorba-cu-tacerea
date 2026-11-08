@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ayli22.github.io/de-vorba-cu-tacerea/sitemap.xml
